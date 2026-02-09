@@ -6,10 +6,13 @@ Include the --to-target parameter
 
 
 ## Reason
-The lab uses a serial pipeline:  
+The lab uses a serial pipeline:
+
 test → staging → prod
 
-The first promotion must explicitly target the first stage. The lab command skips this step.
+
+The first promotion must explicitly target the first stage.  
+The lab command skips this step.
 
 ## Fix
 Replace the lab command:
