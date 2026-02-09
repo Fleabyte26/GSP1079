@@ -28,3 +28,4 @@ gcloud beta deploy releases promote \
   --release web-app-001 \
   --to-target test
 After that, promotions to staging and prod will work and the lab will pass.
+
